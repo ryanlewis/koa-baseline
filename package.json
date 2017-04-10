@@ -5,6 +5,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
+    "lint": "node_modules/.bin/eslint src/** scripts/**",
     "setup": "node scripts/setup",
     "start": "node .",
     "test": "mocha --require babel-polyfill --compilers js:babel-register",
