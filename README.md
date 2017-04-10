@@ -1,5 +1,7 @@
 # koa-baseline
 
+[![Build Status](https://travis-ci.org/ryanlewis/koa-baseline.svg?branch=master)](https://travis-ci.org/ryanlewis/koa-baseline)
+
 Baseline installation of [Koa][koa].
 
 ## What's included
