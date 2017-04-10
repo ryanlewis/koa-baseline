@@ -20,5 +20,3 @@ const initGit = (b) => {
     process.exit(0)
   })
 }
-
-
