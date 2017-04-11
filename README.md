@@ -16,5 +16,6 @@ Baseline installation of [Koa][koa].
 ## Installation
 
 1. Clone this repository with `git clone --depth=1 https://github.com/ryanlewis/koa-baseline.git`
-2. Setup a new git repository with `yarn setup`
-3. Start the server with `yarn start`. If you want to configure a port, set the env `PORT` e.g. `PORT=1337 yarn start`
+2. Install dependencies with `yarn`
+3. Setup a new git repository with `yarn setup`
+4. Start the server with `yarn start`. If you want to configure a port, set the env `PORT` e.g. `PORT=1337 yarn start`
