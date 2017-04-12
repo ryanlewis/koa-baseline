@@ -8,7 +8,8 @@
         "skipLibCheck": true,
         "sourceMap": true,
         "allowJs": false,
-        "outDir": "./build"
+        "outDir": "./build",
+        "experimentalDecorators": true
     },
     "exclude": [
         "node_modules",
