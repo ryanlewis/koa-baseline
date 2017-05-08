@@ -12,7 +12,7 @@
     "test": "node_modules/.bin/mocha --compilers ts:ts-node/register test/**/*.spec.ts",
     "test:feature": "node_modules/.bin/cucumberjs --compiler ts:ts-node/register",
     "test:watch": "node_modules/.bin/mocha --compilers ts:ts-node/register --watch",
-    "watch": "node_modules/.bin/nodemon"
+    "watch": "node_modules/.bin/nodemon -w src -x node_modules/.bin/ts-node index.ts"
   },
   "repository": {
     "type": "git",
